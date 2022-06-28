@@ -1,22 +1,13 @@
-import { Container, createStyles, makeStyles, Box } from "@material-ui/core";
+import { Container } from "@mui/material";
 import React from "react";
 import Navbar from "../components/Navbar";
 import Player from "../components/Player";
 
-const useStyles = makeStyles((theme) => createStyles({
-    container: {
-        marginTop: 90,
-    }
-}))
-
-
 const MainLayout = ({children}: any) => {
-    const classes = useStyles();
-
     return (
         <div>
             <Navbar />
-            <Container className={classes.container}>
+            <Container>
                 {children}
             </Container>
             <Player />
