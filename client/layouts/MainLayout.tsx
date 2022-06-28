@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => createStyles({
 }))
 
 
-const MainLayout: React.FC = ({children}: any) => {
+const MainLayout = ({children}: any) => {
     const classes = useStyles();
 
     return (

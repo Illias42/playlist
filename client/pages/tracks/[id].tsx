@@ -19,7 +19,7 @@ function TrackPage({track}: any) {
                         {track.text}
                     </Typography>
                 </div>
-        }
+            }
         </MainLayout>
     )
 }

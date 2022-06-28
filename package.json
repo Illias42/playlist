@@ -1,0 +1,23 @@
+{
+  "name": "playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && npm run start\" \"cd client && npm run build && npm run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Illias42/playlist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Illias42/playlist/issues"
+  },
+  "homepage": "https://github.com/Illias42/playlist#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
