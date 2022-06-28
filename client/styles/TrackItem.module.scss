@@ -1,0 +1,17 @@
+.root {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+}
+
+.track {
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
